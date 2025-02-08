@@ -23,7 +23,7 @@
     <ProjectGuid>{DAEB9AD1-37A6-45F0-8AC7-D23ACEE935AA}</ProjectGuid>
     <RootNamespace>BaekJoon</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>BaekJoon-1</ProjectName>
+    <ProjectName>BaekJoon</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -181,7 +181,13 @@
     <ClCompile Include="2-6-2525.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2-7-2480.cpp" />
+    <ClCompile Include="2-7-2480.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3-1-2739.cpp" />
+    <ClCompile Include="3-2-10950.cpp" />
+    <ClCompile Include="3-3-8393.cpp" />
+    <ClCompile Include="3-4-25304.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
