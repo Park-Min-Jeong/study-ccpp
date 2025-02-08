@@ -1,13 +1,15 @@
 #include <iostream>
 
 int main() {
-	int t;
 	int a, b;
 
-	std::cin >> t;
-
-	for (int i = 0; i < t; i++) {
+	while (1) {
 		std::cin >> a >> b;
+
+		if ((a == 0) && (b == 0)) {
+			break;
+		}
+
 		std::cout << a + b << std::endl;
 	}
 

@@ -1,13 +1,9 @@
 #include <iostream>
 
 int main() {
-	int t;
 	int a, b;
 
-	std::cin >> t;
-
-	for (int i = 0; i < t; i++) {
-		std::cin >> a >> b;
+	while (!(std::cin >> a >> b).eof()) {
 		std::cout << a + b << std::endl;
 	}
 
